@@ -1,9 +1,9 @@
 package org.redlich.actuator;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 import org.springframework.boot.endpoint.Endpoint;
 import org.springframework.boot.endpoint.ReadOperation;
@@ -15,7 +15,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class PersonEndpoint {
 
-    private final Map<String, Person> people = new HashMap<>();
+    private final Map<String, Person> people = new ConcurrentHashMap<>();
 
     PersonEndpoint() {
         this.people.put("mike", new Person("Michael Redlich"));
