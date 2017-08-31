@@ -3,7 +3,7 @@
 
 ### InfoQ Java Queue
 
-#### published August xx, 2017
+#### published August 31, 2017
 
 This example application was adapted from Stéphane Nicoll's actuator [example](https://github.com/snicoll-scratches/webmvc-actuator) and demonstrates how to create a user-defined endpoint. 
 
