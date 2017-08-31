@@ -31,4 +31,9 @@ Once running, open your browser:
 
 `localhost:8080/application/person/mike` will display only my name.
 
+The other URL options are:
+
+`localhost:8080/application/person/rowena`
+`localhost:8080/application/person/barry`
+
 Please don't hesitate to contact me at [mike@redlich.net](mailto:mike@redlich.net) with any questions.
