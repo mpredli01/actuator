@@ -34,7 +34,7 @@ public class PersonEndpoint {
     }
 
     @WriteOperation
-    public void updatePerson(@Selector String name, String person) {
+    public void addOrUpdatePerson(@Selector String name, String person) {
         this.people.put(name, new Person(person));
     }
 
